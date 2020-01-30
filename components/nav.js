@@ -4,6 +4,7 @@ import Link from 'next/link'
 const links = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
+  { href: '/service', label: 'Service' },
   { href: '/contact', label: 'Contact' },
 ].map(link => ({
   ...link,
